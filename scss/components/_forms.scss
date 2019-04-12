@@ -4,10 +4,7 @@
 //.form__input
 
 .form {
-  display: flex;
-  flex-direction: column;
-  flex-grow: 1;
-  justify-content: center;
+  @include flexy (flex, column);
 
   &__label--hidden {
     display: none;
@@ -21,6 +18,10 @@
     padding: 10px;
     margin-bottom: 40px;
     font-weight: bold;
+  }
+
+  .btn--default {
+    @extend %btn;
   }
 
 }

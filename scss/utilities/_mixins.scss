@@ -1,11 +1,35 @@
 //media queries
+@mixin mq {
+  @media (min-width: $breaksm){
+    @content;
+  }
+}
+
 
 //flexbox
 
+@mixin flexy ($disp: flex, $dir: null, $wrap: null, $just: null) {
+    display: $disp;
+    flex-direction: $dir;
+    flex-wrap: $wrap;
+    justify-content: $just;
+
+}
+
+
+//other
 
 @mixin center {
         	Width: 90%;
-          max-width: 480px;
-        	Margin-left: auto;
+          text-align: center;
+          Margin-left: auto;
         	Margin-right: auto;
+}
+
+@mixin bg-colors($map) {
+  @each $theme, $color in $map{
+    &--#{$theme} {
+      background-color: $color;
+    }
+  }
 }

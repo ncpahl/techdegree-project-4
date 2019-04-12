@@ -21,35 +21,66 @@
 //.grid__col--12
 //.centered
 
+.container {
+  @include flexy (flex, column);
+  @include center;
+  color: $color-font;
+  font-family: $font-stack;
+  max-width: $breaklg;
+}
 
 //.theme__colors
+// .grid__col
+.grid{
+&__col {
+
+  @for $i from 1 through 12 {
+    &--#{$i}.theme__colors {
+      @extend %grid-lbl;
+
+      @include mq {
+        text-align: center;
+      }
+    }
+  }
+}
+}
+
 .grid__col--12.theme__colors {
-  background-color: map-get($colors,'main');
+  background-color: $teal;
 }
 
 .grid__col--6.theme__colors {
-  background-color: map-get($colors,'darkblue');
+  background-color: $darkblue;
 }
 
 .grid__col--4.theme__colors {
-  background-color: map-get($colors,'secondary');
+  background-color: $lightblue;
 }
 
 .grid__col--3.theme__colors {
-  background-color: map-get($colors,'purple');
+  background-color: $lightpurple;
 }
 
 .grid__col--5.theme__colors {
-  background-color: map-get($colors,'green');
+  background-color: $green;
 }
 
 .grid__col--7.theme__colors {
-  background-color: map-get($colors,'red');
+  background-color: $red;
 }
 
 .grid__col--8.theme__colors {
-  background-color: map-get($colors,'orange');
+  background-color: $orange;
 }
+
+.centered.grid__col--7 {
+  @include mq {
+    @include center;
+  }
+}
+
+
 
 // grid base class
 .grid {
@@ -57,19 +88,18 @@
   // .grid__row
   &__row {
     padding: 1em 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: stretch;
+    @include flexy (flex, column);
 
     .grid__col--12{
-      display: flex;
-      flex-direction: column;
+      @include flexy (flex, column);
+      @include mq {
+        flex-direction: row;
+        justify-content: space-around;
+      }
     }
 
-
-
     // NOTE: replace with media query mixin if aiming for exceeds
-    @media (min-width: 768px) {
+    @include mq {
       flex-direction: row;
     }
   }
@@ -88,14 +118,12 @@
         // base styles applied to all grid columns
         // NOTE: could be converted to a placeholder, along with margin
         // from the  media query
-        flex-grow: 1;
         margin-top: 10px;
         padding: 15px;
-        border-radius: 5px;
 
 
         // NOTE: replace with media query mixin if aiming for exceeds
-        @media (min-width: 768px) {
+        @include mq {
 
           // base stlyes applied to all grid columns
           margin-top: 0;
@@ -114,7 +142,7 @@
   & + & {
 
     // NOTE: replace with media query mixin if aiming for exceeds
-    @media (min-width: 768px) {
+    @include mq{
 
       // add grid gutter
       margin-left: 10px;

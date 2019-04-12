@@ -8,12 +8,14 @@
   }
 
   &--frame {
+    @include center;
     border: .5px solid $color-font;
     padding: 10px;
-    max-width: 90%;
   }
 
   &--avatar {
+    @include center;
     padding: 10px;
+    max-width: 200px;
   }
 }

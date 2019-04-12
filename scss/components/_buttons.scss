@@ -9,26 +9,22 @@
 
 
 .btn {
+  @include bg-colors($btn-colors);
+}
 
-  &--default {
+.grid__col--12 {
+  .btn--default,
+  .btn--success,
+  .btn--error,
+  .btn--warning,
+  .btn--info {
     @extend %btn;
-    background-color: $color-secondary;
-  }
-  &--success {
-    @extend %btn;
-    background-color: $color-green;
-  }
-  &--error {
-    @extend %btn;
-    background-color: $color-red;
-  }
-  &--warning {
-    @extend %btn;
-    background-color: $color-orange;
-  }
-  &--info {
-    @extend %btn;
-    background-color: $color-purple;
-  }
+
+    @include mq {
+     padding: 15px 55px;
+   }
+
+}
+
 
 }

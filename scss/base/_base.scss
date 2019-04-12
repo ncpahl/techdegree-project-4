@@ -1,6 +1,8 @@
-.container {
-  display: flex;
-  flex-direction: column;
-  @include center;
-  max-width: 480px;
+p {
+    line-height: 1.5em;
+    text-align: left;
+}
+
+h1, h4 {
+    text-align: left;
 }

@@ -1,26 +1,31 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 // fonts
+$font-url: 'https://fonts.googleapis.com/css?family=Open+Sans';
 $font-stack: 'Open Sans', sans-serif;
 
 // Colors
 
 $white: #fff;
+$teal: #54e1c0;
+$darkblue: #3fabca;
+$lightblue: #51ddfc;
+$green: #63cc82;
+$red: #e4757a;
+$orange: #fd7856;
+$purple: #927bc1;
+$lightpurple: #deb2ee;
 
 $color-font: #7d7d7d;
-$color-main: #54e1c0;
-$color-secondary: #51ddfc;
-$color-purple: #927bc1;
-$color-green: #63cc82;
-$color-red: #e4757a;
-$color-orange: #fd7856;
+$color-main: $teal;
+$color-secondary: $lightblue;
 
-$colors: (
-  'main': #54e1c0,
-  'secondary': #51ddfc,
-  'darkblue': #3fabca,
-  'purple': #deb2ee,
-  'green': #63cc82,
-  'red': #e4757a,
-  'orange': #fd7856,
-)
+$btn-colors: (
+  'default': $lightblue,
+  'success': $green,
+  'error': $red,
+  'warning': $orange,
+  'info': $purple,
+);
+
+$breaksm: 768px;
+$breaklg: 1400px;

@@ -5,14 +5,6 @@
 //.headline--primary
 //.headline--secondary
 
-.container {
-  font-family: $font-stack;
-
-  p {
-  color: $color-font;
-  line-height: 1.5em;
-  }
-}
 
 
 .link {
@@ -24,6 +16,7 @@
 .blockquote {
   font-size: 1.5em;
   font-style: italic;
+  text-align: left;
   padding-left: 20px;
   line-height: 1.25em;
   color: $color-font;
@@ -40,5 +33,6 @@
 
   &--secondary {
     color: $color-font;
+    text-align: left;
   }
 }
