@@ -1,0 +1,26 @@
+// Forms:
+//.form
+//.form__label--hidden
+//.form__input
+
+.form {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
+
+  &__label--hidden {
+    display: none;
+  }
+
+  &__input {
+    border-bottom: 4px solid $color-main;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    padding: 10px;
+    margin-bottom: 40px;
+    font-weight: bold;
+  }
+
+}

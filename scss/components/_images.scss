@@ -1,0 +1,19 @@
+//Image:
+//.img--logo
+//.img--frame
+//.img--avatar
+
+.img {
+  &--logo {
+  }
+
+  &--frame {
+    border: .5px solid $color-font;
+    padding: 10px;
+    max-width: 90%;
+  }
+
+  &--avatar {
+    padding: 10px;
+  }
+}

@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+// fonts
+$font-stack: 'Open Sans', sans-serif;
+
+// Colors
+
+$white: #fff;
+
+$color-font: #7d7d7d;
+$color-main: #54e1c0;
+$color-secondary: #51ddfc;
+$color-purple: #927bc1;
+$color-green: #63cc82;
+$color-red: #e4757a;
+$color-orange: #fd7856;
+
+$colors: (
+  'main': #54e1c0,
+  'secondary': #51ddfc,
+  'darkblue': #3fabca,
+  'purple': #deb2ee,
+  'green': #63cc82,
+  'red': #e4757a,
+  'orange': #fd7856,
+)
