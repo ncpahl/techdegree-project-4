@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
-/* line 1, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/utilities/_extends.scss */
+/* line 1, ../../../../../Documents/GitHub/techdegree-project-4/scss/utilities/_extends.scss */
 .grid__col--12 .btn--default,
 .grid__col--12 .btn--success,
 .grid__col--12 .btn--error,
@@ -15,22 +15,11 @@
   margin-bottom: 15px;
 }
 
-/* line 12, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/utilities/_extends.scss */
+/* line 12, ../../../../../Documents/GitHub/techdegree-project-4/scss/utilities/_extends.scss */
 .grid__col--1.theme__colors, .grid__col--2.theme__colors, .grid__col--3.theme__colors, .grid__col--4.theme__colors, .grid__col--5.theme__colors, .grid__col--6.theme__colors, .grid__col--7.theme__colors, .grid__col--8.theme__colors, .grid__col--9.theme__colors, .grid__col--10.theme__colors, .grid__col--11.theme__colors, .grid__col--12.theme__colors {
   color: #7d7d7d;
   text-align: left;
   border-radius: 5px;
-}
-
-/* line 1, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/base/_base.scss */
-p {
-  line-height: 1.5em;
-  text-align: left;
-}
-
-/* line 6, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/base/_base.scss */
-h1, h4 {
-  text-align: left;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -40,7 +29,7 @@ h1, h4 {
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-/* line 11, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/base/_normalize.scss */
+/* line 11, ../../../../../Documents/GitHub/techdegree-project-4/scss/base/_normalize.scss */
 html {
   line-height: 1.15;
   /* 1 */
@@ -53,7 +42,7 @@ html {
 /**
  * Remove the margin in all browsers.
  */
-/* line 23, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/base/_normalize.scss */
+/* line 23, ../../../../../Documents/GitHub/techdegree-project-4/scss/base/_normalize.scss */
 body {
   margin: 0;
 }
@@ -61,7 +50,7 @@ body {
 /**
  * Render the `main` element consistently in IE.
  */
-/* line 31, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/base/_normalize.scss */
+/* line 31, ../../../../../Documents/GitHub/techdegree-project-4/scss/base/_normalize.scss */
 main {
   display: block;
 }
@@ -70,7 +59,7 @@ main {
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
-/* line 40, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/base/_normalize.scss */
+/* line 40, ../../../../../Documents/GitHub/techdegree-project-4/scss/base/_normalize.scss */
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
@@ -82,7 +71,7 @@ h1 {
  * 1. Add the correct box sizing in Firefox.
  * 2. Show the overflow in Edge and IE.
  */
-/* line 53, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/base/_normalize.scss */
+/* line 53, ../../../../../Documents/GitHub/techdegree-project-4/scss/base/_normalize.scss */
 hr {
   box-sizing: content-box;
   /* 1 */
@@ -96,7 +85,7 @@ hr {
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
-/* line 64, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/base/_normalize.scss */
+/* line 64, ../../../../../Documents/GitHub/techdegree-project-4/scss/base/_normalize.scss */
 pre {
   font-family: monospace, monospace;
   /* 1 */
@@ -109,7 +98,7 @@ pre {
 /**
  * Remove the gray background on active links in IE 10.
  */
-/* line 76, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/base/_normalize.scss */
+/* line 76, ../../../../../Documents/GitHub/techdegree-project-4/scss/base/_normalize.scss */
 a {
   background-color: transparent;
 }
@@ -118,7 +107,7 @@ a {
  * 1. Remove the bottom border in Chrome 57-
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
-/* line 85, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/base/_normalize.scss */
+/* line 85, ../../../../../Documents/GitHub/techdegree-project-4/scss/base/_normalize.scss */
 abbr[title] {
   border-bottom: none;
   /* 1 */
@@ -131,7 +120,7 @@ abbr[title] {
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
-/* line 95, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/base/_normalize.scss */
+/* line 95, ../../../../../Documents/GitHub/techdegree-project-4/scss/base/_normalize.scss */
 b,
 strong {
   font-weight: bolder;
@@ -141,7 +130,7 @@ strong {
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
-/* line 105, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/base/_normalize.scss */
+/* line 105, ../../../../../Documents/GitHub/techdegree-project-4/scss/base/_normalize.scss */
 code,
 kbd,
 samp {
@@ -154,7 +143,7 @@ samp {
 /**
  * Add the correct font size in all browsers.
  */
-/* line 116, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/base/_normalize.scss */
+/* line 116, ../../../../../Documents/GitHub/techdegree-project-4/scss/base/_normalize.scss */
 small {
   font-size: 80%;
 }
@@ -163,7 +152,7 @@ small {
  * Prevent `sub` and `sup` elements from affecting the line height in
  * all browsers.
  */
-/* line 125, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/base/_normalize.scss */
+/* line 125, ../../../../../Documents/GitHub/techdegree-project-4/scss/base/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -172,12 +161,12 @@ sup {
   vertical-align: baseline;
 }
 
-/* line 133, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/base/_normalize.scss */
+/* line 133, ../../../../../Documents/GitHub/techdegree-project-4/scss/base/_normalize.scss */
 sub {
   bottom: -0.25em;
 }
 
-/* line 137, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/base/_normalize.scss */
+/* line 137, ../../../../../Documents/GitHub/techdegree-project-4/scss/base/_normalize.scss */
 sup {
   top: -0.5em;
 }
@@ -187,7 +176,7 @@ sup {
 /**
  * Remove the border on images inside links in IE 10.
  */
-/* line 148, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/base/_normalize.scss */
+/* line 148, ../../../../../Documents/GitHub/techdegree-project-4/scss/base/_normalize.scss */
 img {
   border-style: none;
 }
@@ -198,7 +187,7 @@ img {
  * 1. Change the font styles in all browsers.
  * 2. Remove the margin in Firefox and Safari.
  */
-/* line 160, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/base/_normalize.scss */
+/* line 160, ../../../../../Documents/GitHub/techdegree-project-4/scss/base/_normalize.scss */
 button,
 input,
 optgroup,
@@ -218,7 +207,7 @@ textarea {
  * Show the overflow in IE.
  * 1. Show the overflow in Edge.
  */
-/* line 176, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/base/_normalize.scss */
+/* line 176, ../../../../../Documents/GitHub/techdegree-project-4/scss/base/_normalize.scss */
 button,
 input {
   /* 1 */
@@ -229,7 +218,7 @@ input {
  * Remove the inheritance of text transform in Edge, Firefox, and IE.
  * 1. Remove the inheritance of text transform in Firefox.
  */
-/* line 186, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/base/_normalize.scss */
+/* line 186, ../../../../../Documents/GitHub/techdegree-project-4/scss/base/_normalize.scss */
 button,
 select {
   /* 1 */
@@ -239,7 +228,7 @@ select {
 /**
  * Correct the inability to style clickable types in iOS and Safari.
  */
-/* line 195, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/base/_normalize.scss */
+/* line 195, ../../../../../Documents/GitHub/techdegree-project-4/scss/base/_normalize.scss */
 button,
 [type="button"],
 [type="reset"],
@@ -250,7 +239,7 @@ button,
 /**
  * Remove the inner border and padding in Firefox.
  */
-/* line 206, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/base/_normalize.scss */
+/* line 206, ../../../../../Documents/GitHub/techdegree-project-4/scss/base/_normalize.scss */
 button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
@@ -262,7 +251,7 @@ button::-moz-focus-inner,
 /**
  * Restore the focus styles unset by the previous rule.
  */
-/* line 218, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/base/_normalize.scss */
+/* line 218, ../../../../../Documents/GitHub/techdegree-project-4/scss/base/_normalize.scss */
 button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
@@ -273,7 +262,7 @@ button:-moz-focusring,
 /**
  * Correct the padding in Firefox.
  */
-/* line 229, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/base/_normalize.scss */
+/* line 229, ../../../../../Documents/GitHub/techdegree-project-4/scss/base/_normalize.scss */
 fieldset {
   padding: 0.35em 0.75em 0.625em;
 }
@@ -284,7 +273,7 @@ fieldset {
  * 3. Remove the padding so developers are not caught out when they zero out
  *    `fieldset` elements in all browsers.
  */
-/* line 240, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/base/_normalize.scss */
+/* line 240, ../../../../../Documents/GitHub/techdegree-project-4/scss/base/_normalize.scss */
 legend {
   box-sizing: border-box;
   /* 1 */
@@ -303,7 +292,7 @@ legend {
 /**
  * Add the correct vertical alignment in Chrome, Firefox, and Opera.
  */
-/* line 253, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/base/_normalize.scss */
+/* line 253, ../../../../../Documents/GitHub/techdegree-project-4/scss/base/_normalize.scss */
 progress {
   vertical-align: baseline;
 }
@@ -311,7 +300,7 @@ progress {
 /**
  * Remove the default vertical scrollbar in IE 10+.
  */
-/* line 261, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/base/_normalize.scss */
+/* line 261, ../../../../../Documents/GitHub/techdegree-project-4/scss/base/_normalize.scss */
 textarea {
   overflow: auto;
 }
@@ -320,7 +309,7 @@ textarea {
  * 1. Add the correct box sizing in IE 10.
  * 2. Remove the padding in IE 10.
  */
-/* line 270, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/base/_normalize.scss */
+/* line 270, ../../../../../Documents/GitHub/techdegree-project-4/scss/base/_normalize.scss */
 [type="checkbox"],
 [type="radio"] {
   box-sizing: border-box;
@@ -332,7 +321,7 @@ textarea {
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
-/* line 280, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/base/_normalize.scss */
+/* line 280, ../../../../../Documents/GitHub/techdegree-project-4/scss/base/_normalize.scss */
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
   height: auto;
@@ -342,7 +331,7 @@ textarea {
  * 1. Correct the odd appearance in Chrome and Safari.
  * 2. Correct the outline style in Safari.
  */
-/* line 290, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/base/_normalize.scss */
+/* line 290, ../../../../../Documents/GitHub/techdegree-project-4/scss/base/_normalize.scss */
 [type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -353,7 +342,7 @@ textarea {
 /**
  * Remove the inner padding in Chrome and Safari on macOS.
  */
-/* line 299, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/base/_normalize.scss */
+/* line 299, ../../../../../Documents/GitHub/techdegree-project-4/scss/base/_normalize.scss */
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
@@ -362,7 +351,7 @@ textarea {
  * 1. Correct the inability to style clickable types in iOS and Safari.
  * 2. Change font properties to `inherit` in Safari.
  */
-/* line 308, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/base/_normalize.scss */
+/* line 308, ../../../../../Documents/GitHub/techdegree-project-4/scss/base/_normalize.scss */
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
   /* 1 */
@@ -375,7 +364,7 @@ textarea {
 /*
  * Add the correct display in Edge, IE 10+, and Firefox.
  */
-/* line 320, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/base/_normalize.scss */
+/* line 320, ../../../../../Documents/GitHub/techdegree-project-4/scss/base/_normalize.scss */
 details {
   display: block;
 }
@@ -383,7 +372,7 @@ details {
 /*
  * Add the correct display in all browsers.
  */
-/* line 328, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/base/_normalize.scss */
+/* line 328, ../../../../../Documents/GitHub/techdegree-project-4/scss/base/_normalize.scss */
 summary {
   display: list-item;
 }
@@ -393,7 +382,7 @@ summary {
 /**
  * Add the correct display in IE 10+.
  */
-/* line 339, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/base/_normalize.scss */
+/* line 339, ../../../../../Documents/GitHub/techdegree-project-4/scss/base/_normalize.scss */
 template {
   display: none;
 }
@@ -401,12 +390,18 @@ template {
 /**
  * Add the correct display in IE 10.
  */
-/* line 347, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/base/_normalize.scss */
+/* line 347, ../../../../../Documents/GitHub/techdegree-project-4/scss/base/_normalize.scss */
 [hidden] {
   display: none;
 }
 
-/* line 24, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
+/* line 2, ../../../../../Documents/GitHub/techdegree-project-4/scss/base/_base.scss */
+p {
+  line-height: 1.5em;
+  text-align: left;
+}
+
+/* line 24, ../../../../../Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
 .container {
   display: flex;
   flex-direction: column;
@@ -416,130 +411,130 @@ template {
   Margin-right: auto;
   color: #7d7d7d;
   font-family: "Open Sans", sans-serif;
-  max-width: 1400px;
+  max-width: 769px;
 }
 
 @media (min-width: 768px) {
-  /* line 38, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
+  /* line 38, ../../../../../Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
   .grid__col--1.theme__colors {
     text-align: center;
   }
 }
 
 @media (min-width: 768px) {
-  /* line 38, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
+  /* line 38, ../../../../../Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
   .grid__col--2.theme__colors {
     text-align: center;
   }
 }
 
 @media (min-width: 768px) {
-  /* line 38, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
+  /* line 38, ../../../../../Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
   .grid__col--3.theme__colors {
     text-align: center;
   }
 }
 
 @media (min-width: 768px) {
-  /* line 38, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
+  /* line 38, ../../../../../Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
   .grid__col--4.theme__colors {
     text-align: center;
   }
 }
 
 @media (min-width: 768px) {
-  /* line 38, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
+  /* line 38, ../../../../../Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
   .grid__col--5.theme__colors {
     text-align: center;
   }
 }
 
 @media (min-width: 768px) {
-  /* line 38, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
+  /* line 38, ../../../../../Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
   .grid__col--6.theme__colors {
     text-align: center;
   }
 }
 
 @media (min-width: 768px) {
-  /* line 38, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
+  /* line 38, ../../../../../Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
   .grid__col--7.theme__colors {
     text-align: center;
   }
 }
 
 @media (min-width: 768px) {
-  /* line 38, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
+  /* line 38, ../../../../../Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
   .grid__col--8.theme__colors {
     text-align: center;
   }
 }
 
 @media (min-width: 768px) {
-  /* line 38, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
+  /* line 38, ../../../../../Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
   .grid__col--9.theme__colors {
     text-align: center;
   }
 }
 
 @media (min-width: 768px) {
-  /* line 38, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
+  /* line 38, ../../../../../Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
   .grid__col--10.theme__colors {
     text-align: center;
   }
 }
 
 @media (min-width: 768px) {
-  /* line 38, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
+  /* line 38, ../../../../../Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
   .grid__col--11.theme__colors {
     text-align: center;
   }
 }
 
 @media (min-width: 768px) {
-  /* line 38, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
+  /* line 38, ../../../../../Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
   .grid__col--12.theme__colors {
     text-align: center;
   }
 }
 
-/* line 49, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
+/* line 49, ../../../../../Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
 .grid__col--12.theme__colors {
   background-color: #54e1c0;
 }
 
-/* line 53, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
+/* line 53, ../../../../../Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
 .grid__col--6.theme__colors {
   background-color: #3fabca;
 }
 
-/* line 57, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
+/* line 57, ../../../../../Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
 .grid__col--4.theme__colors {
   background-color: #51ddfc;
 }
 
-/* line 61, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
+/* line 61, ../../../../../Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
 .grid__col--3.theme__colors {
   background-color: #deb2ee;
 }
 
-/* line 65, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
+/* line 65, ../../../../../Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
 .grid__col--5.theme__colors {
   background-color: #63cc82;
 }
 
-/* line 69, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
+/* line 69, ../../../../../Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
 .grid__col--7.theme__colors {
   background-color: #e4757a;
 }
 
-/* line 73, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
+/* line 73, ../../../../../Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
 .grid__col--8.theme__colors {
   background-color: #fd7856;
 }
 
 @media (min-width: 768px) {
-  /* line 77, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
+  /* line 77, ../../../../../Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
   .centered.grid__col--7 {
     Width: 90%;
     text-align: center;
@@ -548,21 +543,21 @@ template {
   }
 }
 
-/* line 89, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
+/* line 89, ../../../../../Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
 .grid__row {
   padding: 1em 10px;
   display: flex;
   flex-direction: column;
 }
 
-/* line 93, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
+/* line 93, ../../../../../Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
 .grid__row .grid__col--12 {
   display: flex;
   flex-direction: column;
 }
 
 @media (min-width: 768px) {
-  /* line 93, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
+  /* line 93, ../../../../../Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
   .grid__row .grid__col--12 {
     flex-direction: row;
     justify-content: space-around;
@@ -570,174 +565,174 @@ template {
 }
 
 @media (min-width: 768px) {
-  /* line 89, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
+  /* line 89, ../../../../../Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
   .grid__row {
     flex-direction: row;
   }
 }
 
-/* line 116, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
+/* line 115, ../../../../../Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
 .grid__col--1 {
   margin-top: 10px;
   padding: 15px;
 }
 
 @media (min-width: 768px) {
-  /* line 116, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
+  /* line 115, ../../../../../Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
   .grid__col--1 {
     margin-top: 0;
     flex-basis: 8.33333%;
   }
 }
 
-/* line 116, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
+/* line 115, ../../../../../Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
 .grid__col--2 {
   margin-top: 10px;
   padding: 15px;
 }
 
 @media (min-width: 768px) {
-  /* line 116, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
+  /* line 115, ../../../../../Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
   .grid__col--2 {
     margin-top: 0;
     flex-basis: 16.66667%;
   }
 }
 
-/* line 116, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
+/* line 115, ../../../../../Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
 .grid__col--3 {
   margin-top: 10px;
   padding: 15px;
 }
 
 @media (min-width: 768px) {
-  /* line 116, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
+  /* line 115, ../../../../../Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
   .grid__col--3 {
     margin-top: 0;
     flex-basis: 25%;
   }
 }
 
-/* line 116, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
+/* line 115, ../../../../../Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
 .grid__col--4 {
   margin-top: 10px;
   padding: 15px;
 }
 
 @media (min-width: 768px) {
-  /* line 116, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
+  /* line 115, ../../../../../Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
   .grid__col--4 {
     margin-top: 0;
     flex-basis: 33.33333%;
   }
 }
 
-/* line 116, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
+/* line 115, ../../../../../Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
 .grid__col--5 {
   margin-top: 10px;
   padding: 15px;
 }
 
 @media (min-width: 768px) {
-  /* line 116, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
+  /* line 115, ../../../../../Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
   .grid__col--5 {
     margin-top: 0;
     flex-basis: 41.66667%;
   }
 }
 
-/* line 116, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
+/* line 115, ../../../../../Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
 .grid__col--6 {
   margin-top: 10px;
   padding: 15px;
 }
 
 @media (min-width: 768px) {
-  /* line 116, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
+  /* line 115, ../../../../../Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
   .grid__col--6 {
     margin-top: 0;
     flex-basis: 50%;
   }
 }
 
-/* line 116, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
+/* line 115, ../../../../../Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
 .grid__col--7 {
   margin-top: 10px;
   padding: 15px;
 }
 
 @media (min-width: 768px) {
-  /* line 116, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
+  /* line 115, ../../../../../Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
   .grid__col--7 {
     margin-top: 0;
     flex-basis: 58.33333%;
   }
 }
 
-/* line 116, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
+/* line 115, ../../../../../Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
 .grid__col--8 {
   margin-top: 10px;
   padding: 15px;
 }
 
 @media (min-width: 768px) {
-  /* line 116, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
+  /* line 115, ../../../../../Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
   .grid__col--8 {
     margin-top: 0;
     flex-basis: 66.66667%;
   }
 }
 
-/* line 116, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
+/* line 115, ../../../../../Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
 .grid__col--9 {
   margin-top: 10px;
   padding: 15px;
 }
 
 @media (min-width: 768px) {
-  /* line 116, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
+  /* line 115, ../../../../../Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
   .grid__col--9 {
     margin-top: 0;
     flex-basis: 75%;
   }
 }
 
-/* line 116, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
+/* line 115, ../../../../../Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
 .grid__col--10 {
   margin-top: 10px;
   padding: 15px;
 }
 
 @media (min-width: 768px) {
-  /* line 116, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
+  /* line 115, ../../../../../Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
   .grid__col--10 {
     margin-top: 0;
     flex-basis: 83.33333%;
   }
 }
 
-/* line 116, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
+/* line 115, ../../../../../Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
 .grid__col--11 {
   margin-top: 10px;
   padding: 15px;
 }
 
 @media (min-width: 768px) {
-  /* line 116, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
+  /* line 115, ../../../../../Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
   .grid__col--11 {
     margin-top: 0;
     flex-basis: 91.66667%;
   }
 }
 
-/* line 116, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
+/* line 115, ../../../../../Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
 .grid__col--12 {
   margin-top: 10px;
   padding: 15px;
 }
 
 @media (min-width: 768px) {
-  /* line 116, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
+  /* line 115, ../../../../../Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
   .grid__col--12 {
     margin-top: 0;
     flex-basis: 100%;
@@ -745,20 +740,20 @@ template {
 }
 
 @media (min-width: 768px) {
-  /* line 142, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
+  /* line 140, ../../../../../Documents/GitHub/techdegree-project-4/scss/components/_grid.scss */
   [class^=grid__col] + [class^=grid__col] {
     margin-left: 10px;
   }
 }
 
-/* line 10, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/components/_typography.scss */
+/* line 9, ../../../../../Documents/GitHub/techdegree-project-4/scss/components/_typography.scss */
 .link {
   color: #51ddfc;
   text-decoration: none;
   font-weight: bold;
 }
 
-/* line 16, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/components/_typography.scss */
+/* line 15, ../../../../../Documents/GitHub/techdegree-project-4/scss/components/_typography.scss */
 .blockquote {
   font-size: 1.5em;
   font-style: italic;
@@ -770,20 +765,21 @@ template {
   border-radius: 5px;
 }
 
-/* line 28, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/components/_typography.scss */
+/* line 27, ../../../../../Documents/GitHub/techdegree-project-4/scss/components/_typography.scss */
 .headline--primary {
   color: #54e1c0;
   padding-left: 10px;
   font-weight: bold;
+  text-align: left;
 }
 
-/* line 34, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/components/_typography.scss */
+/* line 34, ../../../../../Documents/GitHub/techdegree-project-4/scss/components/_typography.scss */
 .headline--secondary {
   color: #7d7d7d;
   text-align: left;
 }
 
-/* line 5, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/components/_navigation.scss */
+/* line 5, ../../../../../Documents/GitHub/techdegree-project-4/scss/components/_navigation.scss */
 .nav {
   list-style-type: none;
   display: flex;
@@ -794,14 +790,14 @@ template {
 }
 
 @media (min-width: 768px) {
-  /* line 5, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/components/_navigation.scss */
+  /* line 5, ../../../../../Documents/GitHub/techdegree-project-4/scss/components/_navigation.scss */
   .nav {
     display: flex;
     flex-direction: row;
   }
 }
 
-/* line 16, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/components/_navigation.scss */
+/* line 16, ../../../../../Documents/GitHub/techdegree-project-4/scss/components/_navigation.scss */
 .nav a {
   text-decoration: none;
   color: #7d7d7d;
@@ -810,25 +806,25 @@ template {
 }
 
 @media (min-width: 768px) {
-  /* line 16, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/components/_navigation.scss */
+  /* line 16, ../../../../../Documents/GitHub/techdegree-project-4/scss/components/_navigation.scss */
   .nav a {
-    padding: 5px 20px;
+    padding: 5px 10px;
   }
 }
 
-/* line 27, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/components/_navigation.scss */
+/* line 27, ../../../../../Documents/GitHub/techdegree-project-4/scss/components/_navigation.scss */
 .nav__item {
   display: block;
   margin: 10px;
 }
 
-/* line 31, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/components/_navigation.scss */
+/* line 31, ../../../../../Documents/GitHub/techdegree-project-4/scss/components/_navigation.scss */
 .nav__item a:hover {
   color: #fff;
   background-color: #54e1c0;
 }
 
-/* line 10, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/components/_images.scss */
+/* line 10, ../../../../../Documents/GitHub/techdegree-project-4/scss/components/_images.scss */
 .img--frame {
   Width: 90%;
   text-align: center;
@@ -838,64 +834,64 @@ template {
   padding: 10px;
 }
 
-/* line 16, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/components/_images.scss */
+/* line 16, ../../../../../Documents/GitHub/techdegree-project-4/scss/components/_images.scss */
 .img--avatar {
   Width: 90%;
   text-align: center;
   Margin-left: auto;
   Margin-right: auto;
-  padding: 10px;
+  padding: 20px;
   max-width: 200px;
 }
 
-/* line 31, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/utilities/_mixins.scss */
+/* line 31, ../../../../../Documents/GitHub/techdegree-project-4/scss/utilities/_mixins.scss */
 .btn--default {
   background-color: #51ddfc;
 }
 
-/* line 31, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/utilities/_mixins.scss */
+/* line 31, ../../../../../Documents/GitHub/techdegree-project-4/scss/utilities/_mixins.scss */
 .btn--success {
   background-color: #63cc82;
 }
 
-/* line 31, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/utilities/_mixins.scss */
+/* line 31, ../../../../../Documents/GitHub/techdegree-project-4/scss/utilities/_mixins.scss */
 .btn--error {
   background-color: #e4757a;
 }
 
-/* line 31, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/utilities/_mixins.scss */
+/* line 31, ../../../../../Documents/GitHub/techdegree-project-4/scss/utilities/_mixins.scss */
 .btn--warning {
   background-color: #fd7856;
 }
 
-/* line 31, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/utilities/_mixins.scss */
+/* line 31, ../../../../../Documents/GitHub/techdegree-project-4/scss/utilities/_mixins.scss */
 .btn--info {
   background-color: #927bc1;
 }
 
 @media (min-width: 768px) {
-  /* line 16, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/components/_buttons.scss */
+  /* line 16, ../../../../../Documents/GitHub/techdegree-project-4/scss/components/_buttons.scss */
   .grid__col--12 .btn--default,
   .grid__col--12 .btn--success,
   .grid__col--12 .btn--error,
   .grid__col--12 .btn--warning,
   .grid__col--12 .btn--info {
-    padding: 15px 55px;
+    padding: 10px 30px;
   }
 }
 
-/* line 6, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/components/_forms.scss */
+/* line 6, ../../../../../Documents/GitHub/techdegree-project-4/scss/components/_forms.scss */
 .form {
   display: flex;
   flex-direction: column;
 }
 
-/* line 9, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/components/_forms.scss */
+/* line 9, ../../../../../Documents/GitHub/techdegree-project-4/scss/components/_forms.scss */
 .form__label--hidden {
   display: none;
 }
 
-/* line 13, ../../../../../../../../../../../../../Users/nicolepahl/Documents/GitHub/techdegree-project-4/scss/components/_forms.scss */
+/* line 13, ../../../../../Documents/GitHub/techdegree-project-4/scss/components/_forms.scss */
 .form__input {
   border-bottom: 4px solid #54e1c0;
   border-top: none;
